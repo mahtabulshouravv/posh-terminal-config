@@ -1,0 +1,1 @@
+# posh-terminal-config
