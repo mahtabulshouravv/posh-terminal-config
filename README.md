@@ -28,3 +28,41 @@ For This Case ➜ "WriteThemeName" = star = star.omp.json
 
 ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
 
+## Command Prompt 
+
+### 1️⃣ <strong>[Install winget From Microsoft Store Or Github](https://github.com/microsoft/winget-cli)</strong>
+
+### 2️⃣ <strong>[Install oh-my-posh From Official Website](https://ohmyposh.dev/)</strong>
+
+### 3️⃣ Check For Clink
+
+```cmd
+winget list oh-my
+```
+```cmd
+winget search oh-my-posh
+```
+### 4️⃣ Install Clink 
+
+```cmd
+winget search clink
+```
+<img src="https://github.com/mahtabulshouravv/posh-terminal-config/blob/main/images/CMD1.png" alt="image" width="80%" height="auto">
+
+```cmd
+winget install chrisant996.Clink
+```
+```cmd
+clink info`
+```
+<img src="https://github.com/mahtabulshouravv/posh-terminal-config/blob/main/images/CMD2.png" alt="image" width="80%" height="auto">
+
+### 5️⃣ From Scripts Go To Script Directory & Create oh-my-posh.lua File
+
+### 6️⃣ Edit oh-my-posh.lua File & Past Below Code
+
+```lua
+load(io.popen('oh-my-posh init cmd --config "DirectoryWhereThemes'):read("*a"))()
+```
+### Exit Current Command Prompt & Re-Open It Booooom ! 💥 
+
