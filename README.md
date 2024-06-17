@@ -4,7 +4,7 @@ Customizing your Bash Shell & Windows Terminal isn’t just about aesthetics it�
 efficient, personalized, and enjoyable to work in. Whether you’re a developer, sys-admin, or casual user, investing in </br> 
 terminal customization can significantly improve your computing experience and productivity</br>
 
-## <strong>[For Both Install FiraCode Nerd Font Mono & Change Font Preferences](https://www.nerdfonts.com/)</strong> ❗❗
+## <strong>[For Both Install FiraCode Nerd Font Mono & Change Font Preferences !!](https://www.nerdfonts.com/)</strong>
 
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
