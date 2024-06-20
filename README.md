@@ -60,7 +60,7 @@ winget search clink
 winget install chrisant996.Clink
 ```
 ```cmd
-clink info`
+clink info
 ```
 <img src="https://github.com/mahtabulshouravv/posh-terminal-config/blob/main/images/CMD2.png" alt="image" width="80%" height="auto">
 
