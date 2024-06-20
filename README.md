@@ -6,6 +6,8 @@ terminal customization can significantly improve your computing experience and p
 
 ## <strong>[For Both Install FiraCode Nerd Font Mono & Change Font Preferences !!](https://www.nerdfonts.com/)</strong>
 
+
+# Bash Shell Script 
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ### 1️⃣ <strong>[Install oh-my-posh From Official Website](https://ohmyposh.dev/)</strong>
@@ -26,9 +28,14 @@ eval "$(oh-my-posh init bash --config ~/"WriteThemeName".omp.json)"
 For This Case ➜ "WriteThemeName" = star = star.omp.json
 ### Exit Current Bash Shell & Re-Open Bash Shell Booooom ! 💥 
 
-![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
+</br>
+</br>
+</br>
 
-## Command Prompt 
+
+# Install Windows Terminal From Microsoft Store 
+# Command Prompt 
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
 
 ### 1️⃣ <strong>[Install winget From Microsoft Store Or Github](https://github.com/microsoft/winget-cli)</strong>
 
@@ -65,4 +72,112 @@ clink info`
 load(io.popen('oh-my-posh init cmd --config "DirectoryWhereThemes'):read("*a"))()
 ```
 ### Exit Current Command Prompt & Re-Open It Booooom ! 💥 
+</br>
+</br>
+
+# Windows Powershell 
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
+
+### 1️⃣ <strong>[Install winget From Microsoft Store Or Github](https://github.com/microsoft/winget-cli)</strong>
+
+### 2️⃣ <strong>[Install oh-my-posh From Official Website](https://ohmyposh.dev/)</strong>
+
+### 3️⃣ <strong>Edit Windows Terminal .json File For Posh Key Bindings & Paste Below Code</strong>
+
+```shell
+ "keybindings": 
+    [
+        // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
+        // These two lines additionally bind them to Ctrl+C and Ctrl+V.
+        // To learn more about selection, visit https://aka.ms/terminal-selection
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        },
+        {
+            "command": "splitPane",
+            "keys": "ctrl+_"
+        },
+        {
+            "command": "newTab",
+            "keys": "ctrl+T"
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "shift+f11"
+        },
+        {
+            "command": "toggleAlwaysOnTop",
+            "keys": "alt+shift+f11"
+        },
+        {
+            "command": "toggleRetroEffect",
+            "keys": "ctrl+d"
+        },
+        {
+            "command": "commandPalette",
+            "keys": "ctrl+shift+p"
+        },
+        // Press Ctrl+Shift+F to open the search box
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        // Press Alt+Shift+D to open a new pane.
+        // - "split": "auto" makes this pane open in the direction that provides the most surface area.
+        // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
+        // To learn more about panes, visit https://aka.ms/terminal-panes
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": 
+            {
+                "action": "openSettings",
+                "target": "settingsUI"
+            },
+            "keys": "ctrl+shift+,"
+        }
+    ],
+```
+
+### 4️⃣ <strong>[Install Terminal Icon Module](https://github.com/devblackops/Terminal-Icons)</strong>
+
+```shell
+Install-Module -Name Terminal-Icons -Repository PSGallery
+```
+
+### 5️⃣ Windows Powershell Prompt & Profile 
+
+```shell
+notepad $PROFILE
+```
+### 6️⃣ Past Below CodePaste Below Code In .ps1 File -->  Save It!!
+
+```txt
+oh-my-posh init pwsh --config "C:\Users\Mahtabul Shourav\Documents\Themes\star.omp.json" | Invoke-Expression
+Import-Module -Name Terminal-Icons
+```
+
+### Exit Current Windows Powershell & Re-Open It Booooom ! 💥 
+
+
 
