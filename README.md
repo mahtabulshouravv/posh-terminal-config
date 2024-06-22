@@ -173,7 +173,7 @@ notepad $PROFILE
 ### 6️⃣ Past Below CodePaste Below Code In .ps1 File -->  Save It!!
 
 ```txt
-oh-my-posh init pwsh --config "C:\Users\Mahtabul Shourav\Documents\Themes\star.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "DirectoryWhereThemes" | Invoke-Expression
 Import-Module -Name Terminal-Icons
 ```
 
