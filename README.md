@@ -1,5 +1,5 @@
 # ⌨️ Bash  & Windows Terminal Configuration 
-<img src="https://github.com/mahtabulshouravv/posh-terminal-config/blob/main/images/1.PNG" alt="image" width="80%" height="auto">
+<img src="https://github.com/mahtabulshouravv/posh-terminal-config/blob/main/images/Terminal%20.PNG" alt="image" width="80%" height="auto">
 Customizing your Bash Shell & Windows Terminal isn’t just about aesthetics it’s about creating a workspace that is </br>
 efficient, personalized, and enjoyable to work in. Whether you’re a developer, sys-admin, or casual user, investing in </br> 
 terminal customization can significantly improve your computing experience and productivity</br>
